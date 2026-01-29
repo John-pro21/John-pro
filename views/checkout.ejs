@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John-pro shopping</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">John-pro</div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/customer-register">Register</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Checkout</h1>
+        <div class="checkout-container">
+            <div class="checkout-left">
+                <h2>Shipping Address</h2>
+                <form id="checkout-form">
+                    <div class="form-group">
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" required>
+                    </div>
+
+                    <h2 style="margin-top: 30px;">Payment Information</h2>
+                    
+                    <div class="form-group">
+                        <label for="card-name">Cardholder Name:</label>
+                        <input type="text" id="card-name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="card-number">Card Number:</label>
+                        <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiry">Expiry Date:</label>
+                            <input type="text" id="expiry" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" placeholder="123" required>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Complete Purchase</button>
+                </form>
+            </div>
+
+            <div class="checkout-right">
+                <h2>Order Summary</h2>
+                <div class="order-summary">
+                    <p>Subtotal: $<span id="subtotal">0.00</span></p>
+                    <p>Shipping: $<span id="shipping">10.00</span></p>
+                    <hr>
+                    <h3>Total: $<span id="total">10.00</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy;John-pro shopping.</p>
+        </div>
+    </footer>
+</body>
+</html>

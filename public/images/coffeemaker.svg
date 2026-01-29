@@ -1,0 +1,9 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#c0392b"/>
+  <rect x="60" y="50" width="180" height="160" fill="#a93226" rx="10"/>
+  <circle cx="150" cy="90" r="35" fill="#e74c3c"/>
+  <rect x="120" y="140" width="60" height="50" fill="#95a5a6" rx="5"/>
+  <circle cx="135" cy="155" r="5" fill="#2c3e50"/>
+  <circle cx="165" cy="155" r="5" fill="#2c3e50"/>
+  <text x="150" y="270" font-size="16" text-anchor="middle" fill="white" font-weight="bold">COFFEE MAKER</text>
+</svg>

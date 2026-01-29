@@ -1,0 +1,9 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#16a085"/>
+  <path d="M 100 200 L 150 50 L 200 200 Z" fill="#1abc9c"/>
+  <rect x="120" y="150" width="60" height="60" fill="#0e6251"/>
+  <circle cx="140" cy="140" r="8" fill="#95a5a6"/>
+  <circle cx="160" cy="140" r="8" fill="#95a5a6"/>
+  <line x1="150" y1="150" x2="150" y2="180" stroke="#95a5a6" stroke-width="2"/>
+  <text x="150" y="270" font-size="20" text-anchor="middle" fill="white" font-weight="bold">JEANS</text>
+</svg>

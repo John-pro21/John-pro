@@ -1,0 +1,9 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#e67e22"/>
+  <rect x="60" y="50" width="180" height="180" fill="#d35400" rx="5"/>
+  <line x1="100" y1="90" x2="200" y2="90" stroke="#ecf0f1" stroke-width="3"/>
+  <line x1="100" y1="140" x2="200" y2="140" stroke="#ecf0f1" stroke-width="3"/>
+  <line x1="100" y1="190" x2="200" y2="190" stroke="#ecf0f1" stroke-width="3"/>
+  <rect x="80" y="220" width="140" height="30" fill="#2c3e50" rx="5"/>
+  <text x="150" y="275" font-size="18" text-anchor="middle" fill="white" font-weight="bold">T-SHIRT</text>
+</svg>

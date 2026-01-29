@@ -1,0 +1,9 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f39c12"/>
+  <ellipse cx="150" cy="80" rx="60" ry="50" fill="#e67e22"/>
+  <path d="M 110 140 Q 100 180 120 200 L 180 200 Q 200 180 190 140 Z" fill="#e8a346"/>
+  <path d="M 130 150 Q 130 170 140 190 M 170 150 Q 170 170 160 190" stroke="#d35400" stroke-width="3" fill="none"/>
+  <circle cx="130" cy="165" r="4" fill="#fff"/>
+  <circle cx="170" cy="165" r="4" fill="#fff"/>
+  <text x="150" y="270" font-size="16" text-anchor="middle" fill="white" font-weight="bold">RUNNING SHOES</text>
+</svg>

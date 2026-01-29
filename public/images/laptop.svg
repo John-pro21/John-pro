@@ -1,0 +1,7 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#e74c3c"/>
+  <rect x="50" y="50" width="200" height="180" fill="#c0392b" rx="10"/>
+  <circle cx="150" cy="100" r="40" fill="#f39c12"/>
+  <rect x="120" y="160" width="60" height="50" fill="#95a5a6"/>
+  <text x="150" y="270" font-size="20" text-anchor="middle" fill="white" font-weight="bold">LAPTOP</text>
+</svg>
