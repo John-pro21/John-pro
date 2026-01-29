@@ -61,7 +61,7 @@ app.get('/contact', (req, res) => {
 });
 
 // Start server
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`Shopping website running on http://localhost:${PORT}`);
+    console.log(`Shopping website running on port ${PORT}`);
 });
