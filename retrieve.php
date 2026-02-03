@@ -26,7 +26,7 @@
                         echo "<td>" . htmlspecialchars($q['pname']) . "</td>";
                         echo "<td>" . htmlspecialchars($q['pquantity']) . "</td>";
                         echo "<td>" . htmlspecialchars($q['pdate']) . "</td>";
-                        echo "<td><a href='delete.php?pcode=" . urlencode($q['pcode']) . "'>delete</a></td>";
+                        echo "<td><a href='update.php?pcode=" . urlencode($q['pcode']) . "'>edit</a> | <a href='delete.php?pcode=" . urlencode($q['pcode']) . "'>delete</a></td>";
                         echo "</tr>";
                     }
                 } else {
