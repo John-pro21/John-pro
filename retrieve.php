@@ -18,6 +18,7 @@
                 <th>pname</th>
                 <th>pquantity</th>
                 <th>pdate</th>
+                <th>Action</th>
                 </tr></thead><tbody>";
                 if($na && mysql_num_rows($na) > 0){
                     while($q=mysql_fetch_array($na)){
@@ -25,10 +26,11 @@
                         echo "<td>" . htmlspecialchars($q['pname']) . "</td>";
                         echo "<td>" . htmlspecialchars($q['pquantity']) . "</td>";
                         echo "<td>" . htmlspecialchars($q['pdate']) . "</td>";
+                        echo "<td><a href='delete.php?pcode=" . urlencode($q['pcode']) . "'>delete</a></td>";
                         echo "</tr>";
                     }
                 } else {
-                    echo "<tr><td colspan='4' style='padding:12px;'>No products found</td></tr>";
+                    echo "<tr><td colspan='5' style='padding:12px;'>No products found</td></tr>";
                 }
                 echo "</tbody></table></div>";
                 ?>
